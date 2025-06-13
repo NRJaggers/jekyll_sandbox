@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+_posts/2025-05-29-welcome-to-jekyll.markdown
