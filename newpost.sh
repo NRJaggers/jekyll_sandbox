@@ -11,7 +11,7 @@ TITLE="$1"
 SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g' | sed -E 's/^-+|-+$//g')
 DATE=$(date +"%Y-%m-%d")
 DATETIME=$(date +"%Y-%m-%d %H:%M:%S %z")
-FILENAME="_posts/${DATE}-${SLUG}.markdown"
+FILENAME="_posts/${DATE}-${SLUG}.md"
 
 # Create the post file
 cat <<EOF > "$FILENAME"
