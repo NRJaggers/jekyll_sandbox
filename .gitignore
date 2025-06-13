@@ -3,4 +3,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-_posts/2025-05-29-welcome-to-jekyll.markdown
+_posts/2025-06-12-welcome-to-jekyll.markdown
+Gemfile.lock
